@@ -107,4 +107,4 @@ def handle_file(message):
     if not found:
         bot.send_message(message.chat.id, "❌ Дар ягон wallet баланс нест.")
 
-bot.polling(
+bot.polling()
